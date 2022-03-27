@@ -49,6 +49,7 @@
             background-size: 2000px 1000px;
             background-repeat: no-repeat;
             height: 800px;
+            margin-top: 0;
         }
         
         .heading h1 {
@@ -99,7 +100,41 @@
         }
         
         .sect3 {
-            height: 500px;
+            align-content: center;
+            margin-left: 30%;
+            margin-right: 30%;
         }
         
-        fo
+        form {
+            background-color: #f1d0a2;
+            align-items: center;
+            justify-items: center;
+            border-radius: 10px;
+            height: 550px;
+        }
+        
+        .cont2 {
+            padding-top: 30px;
+            padding-left: 250px;
+        }
+        
+        select {
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            border: 0;
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        .sub {
+            height: 40px;
+            width: 100px;
+            margin-top: 20px;
+            margin-left: 350px;
+            background-color: #840f0f;
+            color: white;
+            font-size: 20px;
+            border: 0;
+            border-radius: 5px;
+        }
