@@ -68,3 +68,32 @@
             padding-top: 0px;
             color: white;
         }
+        
+        h1 {
+            text-align: center;
+            font-size: 60Px;
+        }
+        
+        .sect2 img {
+            max-height: 300px;
+            max-width: 300px;
+        }
+        
+        .sect2 {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        
+        .cont {
+            margin: 20px;
+        }
+        
+        h3 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .sect2 p {
+            font-size: 20px;
+        }
