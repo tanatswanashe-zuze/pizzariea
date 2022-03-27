@@ -72,43 +72,47 @@
         <h1>ORDER HERE</h1>
     </div>
     <section class="sect3">
-        <form>
+        <form id="pizza">
             <div class="cont2">
                 <h2>CHOOSE PIZZA</h2>
-                <select name="flavour" id="flavor">
-					<option value="vegie">Vegiterian Pizza-$10</option>
-					<option value="meatlover">Meatlover Pizza-$15</option>
-					<option value="pepperoni">Pepperoni Pizza-$20</option>
+                <select name="type" id="type" required>
+                    <option value="vegie" name="vegie">Vegiterian Pizza-$10</option>
+                    <option value="meatlover" name="meatlover">Meatlover Pizza-$15</option>
+                    <option value="pepperoni" name="pepperoni">Pepperoni Pizza-$20</option>
 
-				</select>
+                </select>
             </div>
 
             <div class="cont2">
                 <H2>CHOOSE SIZE</H2>
-                <select name="size" id="size">
-					<option value="small">Small-$5</option>
-					<option value="medium">Medium-$10</option>
-					<option value="large">Large-$15</option>
-				</select>
+                <select name="size" id="size" required>
+                    <option value="small" name="small">Small-$5</option>
+                    <option value="medium" name="medium">Medium-$10</option>
+                    <option value="large" name="large">Large-$15</option>
+                </select>
             </div>
             <div class="cont2">
                 <H2>ADD EXTRA TOPPING</H2>
-                <select name="toppings" id="topping">
-					<option value="cheese">cheese-$2</option>
-					<option value="sause">sauce-$2</option>
-					<option value="pineapple">pineapple-$2</option>
-					<option value="mince">mince-$2</option>
-					<option value="pepper">pepper-$2</option>
-					<option value="parsely">Parcely-$2</option>
-					<option value="chicken">chicken-$2</option>
-					<option value="ranch">ranch-$2</option>
-				</select>
+                <select name="toppings" id="toppings">
+                    <option value="cheese" name="cheese">cheese-$2</option>
+                    <option value="sauce" name="sauce">sauce-$2</option>
+                    <option value="pineapple" name="pineapple">pineapple-$2</option>
+                    <option value="mince" name="mince">mince-$2</option>
+                    <option value="pepper" name="pepper">pepper-$2</option>
+                    <option value="parsely" name="parsely">Parcely-$2</option>
+                    <option value="chicken" name="chicken">chicken-$2</option>
+                    <option value="ranch" name="ranch">ranch-$2</option>
+                </select>
             </div>
-            <button type="submit" class="sub" name="sub">ORDER</button>
+            <p id="tprice">total price</p>
+            <button class="sub" id="sub" name="sub" onclick=Pizza()>ORDER</button>
         </form>
 
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+
+    <script src="js/main.js"></script>
 </body>
 
 </html>
