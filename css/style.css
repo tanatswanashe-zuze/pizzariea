@@ -1,0 +1,44 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1d0a2;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.logo {
+    color: #840f0f;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links,
+a {
+    color: white;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-links :hover {
+    color: #840f0f;
+}
+
+.orderN {
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: #840f0f;
+    color: aliceblue;
+    border-radius: 3px;
+}
