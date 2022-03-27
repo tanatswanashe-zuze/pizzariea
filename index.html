@@ -92,6 +92,13 @@
                 </select>
             </div>
             <div class="cont2">
+                <H2>CHOOSE SIZE</H2>
+                <select name="crust" id="crust" required>
+                    <option value="thin" name="thin">Thin-$1</option>
+                    <option value="thick" name="thick">thick-$2</option>
+                </select>
+            </div>
+            <div class="cont2">
                 <H2>ADD EXTRA TOPPING</H2>
                 <select name="toppings" id="toppings">
                     <option value="cheese" name="cheese">cheese-$2</option>
@@ -104,11 +111,21 @@
                     <option value="ranch" name="ranch">ranch-$2</option>
                 </select>
             </div>
-            <p id="tprice">total price</p>
+            <div class="tp">
+                <label for="tprices">Your Total Price is:</label>
+
+                <p id="tprice">0</p>
+            </div>
             <button class="sub" id="sub" name="sub" onclick=Pizza()>ORDER</button>
         </form>
 
     </section>
+
+    <footer>
+        <p>EST</p>
+
+        <p>2022</p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 

@@ -110,7 +110,7 @@
             align-items: center;
             justify-items: center;
             border-radius: 10px;
-            height: 550px;
+            height: 1000px
         }
         
         .cont2 {
@@ -130,11 +130,31 @@
         .sub {
             height: 40px;
             width: 100px;
-            margin-top: 20px;
+            margin-top: 10px;
             margin-left: 350px;
             background-color: #840f0f;
             color: white;
             font-size: 20px;
             border: 0;
             border-radius: 5px;
+        }
+        
+        .tp label {
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 300px;
+            margin-top: 20px;
+        }
+        
+        .tp p {
+            font-size: 50px;
+            text-align: center;
+        }
+        
+        .tp {
+            margin-top: 40px;
+        }
+        
+        footer p {
+            text-align: center;
         }

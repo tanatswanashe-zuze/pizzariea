@@ -1,11 +1,12 @@
-function Pizza(name, size, toppings, pizzaPrice) {
+function Pizza(name, size, toppings, crust, pizzaPrice) {
     var name = $("select#type").val();
     var size = $("select#size").val();
     var toppings = $("select#toppings").val();
-
+    var crust = $("select#crust").val()
     this.name = name
     this.size = size;
     this.toppings = toppings;
+    this.crust = crust;
     this.pizzaPrice = 0;
 
 
@@ -26,6 +27,12 @@ function Pizza(name, size, toppings, pizzaPrice) {
         this.pizzaPrice += 15;
     } else if (this.name === "pepperoni") {
         this.pizzaPrice += 20;
+    }
+
+    if (this.crust === "thin") {
+        this.pizzaPrice += 1;
+    } else if (this.crust === "thick") {
+        this.pizzaPrice += 2;
     }
 
 
